@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        div{
+            width: 50%;
+            padding: 20px;
+            margin-left: 150px;
+            
+            border:double;
+            display:block;
+            
+        }
+        
+        input{
+            width: 50%;
+            padding: 10px;
+            margin: 5px 5px 5px 5px;
+            display: inline-block;
+            background:rgb(244, 247, 250);
+        }
+        h1,h3{
+            text-align: center;
+            
+            
+
+        }
+        button{
+            width: 25%;
+            background-color: rgb(94, 94, 244);
+            color: white;
+            padding: 15px;
+            margin: 5px 5px 5px 5px;
+            cursor: pointer;
+            
+            
+            
+        }
+    </style>
+    <form style="border:1px solid ">
+        <h1 >Create a new Account</h1>
+        <h3>It's quick and easy</h3>
+    <div style="padding-left: 300px;border: 2px;">
+        
+        <input type="text" placeholder="First Name">
+        <input type="text" placeholder="SurName">
+        <input type="text" placeholder="Mobile number and Email address">
+        <input type="text" placeholder="New Password"><br><br>
+        <label for="date">Date of birth</label><br>
+        <input type="date" ><br><br>
+        <label for="radio">Gender:</label><br>
+        
+        
+        
+        <table style="width: 50%;">
+            <tr><td><input type="radio" name="Gender" value="Male">Male</td>
+            <td><input type="radio" name="Gender" value="FeMale">Female</td>
+            <td><input type="radio" name="Gender" value="Others">Custom</td>
+        </tr>
+        </table>
+        <br><br>
+        <button style="margin-left: 90px;" type="button">Sign Up</button><br>
+        <a style="margin-left: 90px;" href="login.html">already have an account?</a>
+    </div>
+</form>
+</body>
+</html>
