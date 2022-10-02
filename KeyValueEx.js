@@ -5,4 +5,4 @@ function keyValueEx(obj,petName,value){
 
 }
 
-console.log(keyValueEx({},"Brutus",300))
+console.log(keyValueEx({piano:500},"Brutus",300))
