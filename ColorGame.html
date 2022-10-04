@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<title>color game project</title>
+	
+</head>
+<body>
+
+	<h1>The Great
+	  <br>
+	  <span id="colorDisplay">RGB</span> 
+      <br>
+      Color Game
+    </h1>
+
+	<div id="stripe">
+		<button id="reset">New color</button>
+		<span id="message"></span>
+		<button class="mode">Easy</button>
+		<button class="mode selected">Hard</button>
+	</div>
+
+	<div id="container">
+		<div class="square"></div>
+	    <div class="square"></div>
+	    <div class="square"></div>
+	    <div class="square"></div>
+	    <div class="square"></div>
+	    <div class="square"></div>
+        <div class="square"></div>
+	    <div class="square"></div>
+	    <div class="square"></div>
+	    <div class="square"></div>
+	    <div class="square"></div>
+	    <div class="square"></div>
+	</div>
+
+
+	
+    <style>
+        body{
+	background-color: #232323;
+	font-family: "Montserrat","Avenir";
+}
+
+.square{
+	width: 30%;
+	background: purple;
+	padding-bottom: 30%; 
+	float: left;
+	margin: 1.66%;  
+	border-radius: 15%;
+	
+}
+
+#container{
+	max-width: 600px;
+	margin: 20px auto;
+}
+
+h1{
+	text-align: center;
+	line-height: 1.1;
+	color: white;
+	background: rgb(53, 125, 53);
+	margin: 0;
+	font-weight: normal;
+	text-transform: uppercase;
+	padding:20px 0;
+}
+
+#colorDisplay{
+	font-size: 200%;
+}
+
+#message{
+	display: inline-block;
+	width: 20%;
+}
+
+
+#stripe{
+	background: white;
+	height: 30px;
+	text-align: center;
+	color: black;
+}
+
+.selected{
+	color: white;
+	background: steelblue; 
+}
+
+button{
+	border:none;
+	background: none;
+    text-transform: uppercase;
+	height: 100%;
+	font-weight: 700;
+	color: steelblue;
+	letter-spacing: 1px;
+	font-size: inherit;
+	outline: none;
+}
+
+button:hover{
+	color: white;
+	background: steelblue; 
+}
+    </style>
+
+	
+<script type="text/javascript" src="guess.js"></script>
+</body>
+</html>
